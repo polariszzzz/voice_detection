@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport" />
+    <title>Cloned Voice Detection</title>
+	<link type = "text/css" href = "../static/css/style.css" rel = "stylesheet">
+	<link type = "text/css" href = "../static/css/jquery-ui.css" rel = "stylesheet" >
+	<script src = "../static/js/jquery-3.4.1.js"></script>
+	<script src = "../static/js/jquery-ui.js"></script>
+	<script  src="../static/js/jquery.touchSwipe.min.js"></script>
+	<script src="../static/js/myjs.js"></script>
+
+
+</head>
+<body onmousewheel="return false;">
+	<div class="container">
+
+		<div class="page page0 cur">
+			<div id = "title1"><span>Cloned Voice Detection</span></div>
+			<div id = "title2"><span>克隆语音检测工具</span></div>
+			<div class = "single1">
+			</div>
+			<div class = "single2">
+			</div>
+			<div class = "single3">
+			</div>
+			<div class = "single4">
+			</div>
+			<div class = "single5">
+			</div>
+		</div>
+
+
+		<div class="page page1"></div>
+
+
+		<div class="page page2">
+			<div class = "check">
+				<div class = "in">
+					<button class = "mask">选择文件</button>
+
+					<form id="uploadForm" enctype="multipart/form-data">
+						<input type="file" id = "file" name = "file">
+					</form>
+					
+
+
+					<span class = "show"> </span>
+					<button class = "detect">开始检测</button>
+					<span class = "wait">
+
+					</span>
+					
+					<button id="intercomBegin">开始对讲</button>
+					<button id="intercomEnd">关闭对讲</button>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="page page3">
+			<div class = "result" >
+<!--				<img id = "true" src = "../static/img/true.png">-->
+<!--				<img id = "false" src = "../static/img/false.png">-->
+<!--			{% if flag %}-->
+<!--				<span>ok</span>-->
+<!--			{% else %}-->
+<!--				<span>wait</span>-->
+<!--			{% endif %}-->
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+	<img  class="label" src="../static/img/godown.png" />
+</body>
+</html>
